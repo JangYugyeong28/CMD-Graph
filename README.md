@@ -4,7 +4,7 @@
 
 ## 
 [[ScienceDirect]](https://www.sciencedirect.com/science/article/abs/pii/S1474034625005373  ) <br>
-[Yugyeong Jang](yugyeong.cargo.site), [Kyung Hoon Hyun](https://designinformatics.hanyang.ac.kr/People_Kyung-Hoon-Hyun)
+[Yugyeong Jang](https://yugyeong.cargo.site/), [Kyung Hoon Hyun](https://designinformatics.hanyang.ac.kr/People_Kyung-Hoon-Hyun)
 
 
 # Introduction
