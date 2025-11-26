@@ -1,6 +1,6 @@
 # Generating Command Modeling and Design Graphs with Data Augmentation for Enhanced 3D Modeling Support
 
-<img width="2481" height="1021" alt="figure1" src="https://github.com/user-attachments/assets/38b76d8c-8dac-4858-a88f-616aacbc72b2" />
+<img width="595" height="250" alt="Figure1 (1)" src="https://github.com/user-attachments/assets/87d7da6a-f9e2-4849-bb5f-df9caca59d6e" />
 
 ## 
 [[ScienceDirect]](https://www.sciencedirect.com/science/article/abs/pii/S1474034625005373  ) <br>
