@@ -27,7 +27,6 @@ Built on top of the original **shape2prog** pipeline, this code:
 | ------------------------------------------ | ---------------------------------------------------- |
 | **test.py**                                | Extracts DSL, Rhino commands, images, sequence steps |
 | **scripts/run_generate_voxels_example.sh** | Full example pipeline script                         |
-| **Images + step exports**                  | Chunked output for each modeling execution           |
 ❌ Training pipeline / dataset are not included
 ❌ CMD-Graph generation layer is not part of this release
 
