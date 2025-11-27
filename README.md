@@ -86,7 +86,7 @@ CUDA_VISIBLE_DEVICES=0 python test.py \
   --save_img                               # export mesh + sequence screenshots
 ```
 
-2) Full automated pipeline (.sh script)
+### **2) Full automated pipeline (.sh script)**
 ```bash
 scripts/run_generate_voxels_example.sh
 ```
