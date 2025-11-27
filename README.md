@@ -119,3 +119,14 @@ These files together form the **modeling sequence dataset**, which can be used f
 ✔ workflow modeling research  
 ✔ UI / modeling support systems
 
+# 📚 Citation
+@article{jang2025generating,
+  title={Generating command modeling and design graphs with data augmentation for enhanced 3D modeling support},
+  author={Jang, Yugyeong and Hyun, Kyung Hoon},
+  journal={Advanced Engineering Informatics},
+  volume={68},
+  pages={103644},
+  year={2025},
+  publisher={Elsevier}
+}
+---
