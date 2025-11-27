@@ -87,7 +87,8 @@ CUDA_VISIBLE_DEVICES=0 python test.py \
 ```
 
 2) Full automated pipeline (.sh script)
-```bash scripts/run_generate_voxels_example.sh
+```bash
+scripts/run_generate_voxels_example.sh
 ```
 ✔ runs MATLAB → voxel generation
 ✔ backs up old results automatically
