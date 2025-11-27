@@ -100,17 +100,21 @@ CUDA_VISIBLE_DEVICES=0 python test.py \
 After running the command above, the following folders are created under `--save_path`:
 
 📁 programs/
+
 └─ Decoded DSL programs inferred from the model
 e.g., 0.txt, 1.txt, ...
 
 📁 rhino_commands/
+
 └─ Rhino-style modeling command sequences converted from DSL
 e.g., 0_rhino.txt, ...
 
 📁 images/
+
 └─ Single-view rendered images of the reconstructed 3D shapes
 
 📁 sequence_images/
+
 └─ Per-step sequence execution screenshots from execute_shape_program_with_trace
 e.g., sample_0/step_0.png, sample_0/step_1.png, ...
 
