@@ -112,14 +112,6 @@ e.g., 0_rhino.txt, ...
 └─ Per-step sequence execution screenshots from execute_shape_program_with_trace
 e.g., sample_0/step_0.png, sample_0/step_1.png, ...
 
-
-These files together form the **modeling sequence dataset**, which can be used for further:
-
-✔ analysis  
-✔ visualization  
-✔ workflow modeling research  
-✔ UI / modeling support systems
-
 ---
 
 ## 📚 Citation
