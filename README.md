@@ -45,7 +45,7 @@ In our setup:
 
 - We follow the **same dataset configuration and training pipeline** as shape2prog.
 - Voxel shapes are upsampled to **64×64×64** for training and decoding.
-- The trained model checkpoint is then used by `test_copy.py` to generate programs.
+- The trained model checkpoint is then used by `test.py` to generate programs.
 
 Because of licensing and size constraints, we do **not** re-distribute:
 
@@ -86,7 +86,7 @@ scripts/run_generate_voxels_example.sh
 
 ✔ activates conda + executes decoding end-to-end
 
-⚠ Make sure to update paths inside the script before use.
+> **“⚠ Make sure to update paths inside the script before use.”**
 
 ---
 
