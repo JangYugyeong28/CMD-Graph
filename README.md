@@ -90,6 +90,7 @@ CUDA_VISIBLE_DEVICES=0 python test_copy.py \
   --save_path ./output/yg_test/ \
   --save_prog \
   --save_img
+```
 
 ### 2️⃣ Outputs
 
