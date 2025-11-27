@@ -80,12 +80,12 @@ Please follow the original shape2prog repository for:
 Once you have shape2prog installed, trained, and your checkpoint ready,  
 you can run the **creative design / decoding step** using the modified test script.
 
-### 1️⃣ Example: run `test_copy.py` for sequence extraction
+### 1️⃣ Example: run `test.py` for sequence extraction
 
 ```bash
 # Example usage (edit paths before running)
 
-CUDA_VISIBLE_DEVICES=0 python test_copy.py \
+CUDA_VISIBLE_DEVICES=0 python test.py \
   --model <path_to_trained_checkpoint>.t7 \        # e.g., ./ckpts/epoch_40.t7
   --data  <path_to_test_data>.h5 \                 # e.g., ./data/test/data.h5
   --batch_size 64 \
