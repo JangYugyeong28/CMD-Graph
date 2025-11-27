@@ -22,28 +22,23 @@ Built on top of the original **shape2prog** pipeline, this code:
 
 ---
 
-## 🗂 What This Repository Provides
+## 📁 Repository Structure
+cmd-graphs/
+├── test.py                         # main decoding script (voxel → DSL → images)
+└── scripts/
+    ├── run_generate_voxels_example.sh   # voxel generation & automated decoding pipeline
+    └── README.md                        # usage notes for scripts/
 
-This repo includes:
+---
 
-- ✅ **Modified test script (`test.py`)**
-  - Loads a trained shape2prog model
-  - Decodes voxel shapes into programs (DSL)
-  - Optionally saves:
-    - DSL text files (`programs/`)
-    - Converted Rhino command files (`rhino_commands/`)
-    - Reconstructed model images (`images/`)
-    - Step-by-step sequence images (`sequence_images/`)
-
-- ✅ **Example shell command** for running creative design / inference
-
-This repo **does not** provide:
-
-- ❌ Training code for the program generator  
-- ❌ The original datasets used in training  
-- ❌ CMD-Graph construction code
-
-Instead, it focuses on:
+## 📁 What This Repository Provides
+| Included                                   | Description                                          |
+| ------------------------------------------ | ---------------------------------------------------- |
+| **test.py**                                | Extracts DSL, Rhino commands, images, sequence steps |
+| **scripts/run_generate_voxels_example.sh** | Full example pipeline script                         |
+| **Images + step exports**                  | Chunked output for each modeling execution           |
+❌ Training pipeline / dataset are not included
+❌ CMD-Graph generation layer is not part of this release
 
 > **“Given 3D shapes (from a trained shape2prog model), how do we extract and save the corresponding modeling command sequences?”**
 
@@ -75,25 +70,30 @@ Please follow the original shape2prog repository for:
 
 ---
 
-## 🚀 Usage Guide — Modeling Sequence Extraction
+## 🚀 Usage — Modeling Command Extraction
 
-Once you have shape2prog installed, trained, and your checkpoint ready,  
-you can run the **creative design / decoding step** using the modified test script.
-
-### 1️⃣ Example: run `test.py` for sequence extraction
+### **1) Direct Python decoding (recommended)**
 
 ```bash
-# Example usage (edit paths before running)
+# Example execution (edit paths before running)
 
 CUDA_VISIBLE_DEVICES=0 python test.py \
-  --model <path_to_trained_checkpoint>.t7 \        # e.g., ./ckpts/epoch_40.t7
-  --data  <path_to_test_data>.h5 \                 # e.g., ./data/test/data.h5
+  --model <path_to_checkpoint>.t7 \        # ex) ./model/ckpt_epoch_40.t7
+  --data  <path_to_test_data>.h5 \         # ex) ./data/test/data.h5
   --batch_size 64 \
-  --save_path <output_directory>/ \                # e.g., ./output/exp1/
-  --save_prog \                                    # save DSL programs
-  --save_img                                       # save reconstructed + step images
-
+  --save_path <output_dir>/ \              # ex) ./output/run_01/
+  --save_prog \                            # export DSL programs
+  --save_img                               # export mesh + sequence screenshots
 ```
+
+2) Full automated pipeline (.sh script)
+```bash scripts/run_generate_voxels_example.sh
+```
+✔ runs MATLAB → voxel generation
+✔ backs up old results automatically
+✔ activates conda + executes decoding end-to-end
+
+⚠ Make sure to update paths inside the script before use.
 
 ### 2️⃣ Outputs
 
