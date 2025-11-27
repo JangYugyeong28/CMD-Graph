@@ -26,7 +26,7 @@ Built on top of the original **shape2prog** pipeline, this code:
 
 This repo includes:
 
-- ✅ **Modified test script (`test_copy.py`)**
+- ✅ **Modified test script (`test.py`)**
   - Loads a trained shape2prog model
   - Decodes voxel shapes into programs (DSL)
   - Optionally saves:
