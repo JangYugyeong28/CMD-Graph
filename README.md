@@ -95,7 +95,9 @@ CUDA_VISIBLE_DEVICES=0 python test.py \
 scripts/run_generate_voxels_example.sh
 ```
 ✔ runs MATLAB → voxel generation
+
 ✔ backs up old results automatically
+
 ✔ activates conda + executes decoding end-to-end
 
 ⚠ Make sure to update paths inside the script before use.
