@@ -119,7 +119,13 @@ These files together form the **modeling sequence dataset**, which can be used f
 ✔ workflow modeling research  
 ✔ UI / modeling support systems
 
-# 📚 Citation
+---
+
+## 📚 Citation
+
+If you use this code or reference our modeling sequence extraction approach, please cite:
+
+```bibtex
 @article{jang2025generating,
   title={Generating command modeling and design graphs with data augmentation for enhanced 3D modeling support},
   author={Jang, Yugyeong and Hyun, Kyung Hoon},
@@ -129,4 +135,3 @@ These files together form the **modeling sequence dataset**, which can be used f
   year={2025},
   publisher={Elsevier}
 }
----
