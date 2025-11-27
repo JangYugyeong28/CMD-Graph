@@ -27,8 +27,6 @@ Built on top of the original **shape2prog** pipeline, this code:
 | ------------------------------------------ | ---------------------------------------------------- |
 | **test.py**                                | Extracts DSL, Rhino commands, images, sequence steps |
 | **scripts/run_generate_voxels_example.sh** | Full example pipeline script                         |
-| **test.py** | Extracts DSL, Rhino commands, images, sequence steps |
-| **scripts/run_generate_voxels_example.sh** | Full example pipeline script |
 | ❌ *Not included in this release* | Training pipeline / dataset, CMD-Graph generation layer |
 
 > **“Given 3D shapes (from a trained shape2prog model), how do we extract and save the corresponding modeling command sequences?”**
