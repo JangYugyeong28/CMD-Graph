@@ -89,7 +89,9 @@ scripts/run_generate_voxels_example.sh
 
 ⚠ Make sure to update paths inside the script before use.
 
-### 2️⃣ Outputs
+---
+
+## 📤 Output Files
 
 After running the command above, the following folders are created under `--save_path`:
 
