@@ -83,13 +83,16 @@ you can run the **creative design / decoding step** using the modified test scri
 ### 1️⃣ Example: run `test_copy.py` for sequence extraction
 
 ```bash
+# Example usage (edit paths before running)
+
 CUDA_VISIBLE_DEVICES=0 python test_copy.py \
-  --model /home/donut/YG_BABO/shape2prog/model/ckpts_program_generator_828/ckpt_epoch_40.t7 \
-  --data  /home/donut/YG_BABO/shape2prog/data_test/test/data.h5 \
+  --model <path_to_trained_checkpoint>.t7 \        # e.g., ./ckpts/epoch_40.t7
+  --data  <path_to_test_data>.h5 \                 # e.g., ./data/test/data.h5
   --batch_size 64 \
-  --save_path ./output/yg_test/ \
-  --save_prog \
-  --save_img
+  --save_path <output_directory>/ \                # e.g., ./output/exp1/
+  --save_prog \                                    # save DSL programs
+  --save_img                                       # save reconstructed + step images
+
 ```
 
 ### 2️⃣ Outputs
