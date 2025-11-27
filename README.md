@@ -29,7 +29,7 @@ cmd-graphs/
 
 └── scripts/
 
-    ├── run_generate_voxels_example.sh   # voxel generation & automated decoding pipeline
+├── run_generate_voxels_example.sh   # voxel generation & automated decoding pipeline
     
 └── README.md                        # usage notes for scripts/
 
